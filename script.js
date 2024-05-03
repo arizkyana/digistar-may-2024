@@ -91,7 +91,7 @@ const projects = [
   },
 ];
 
-const projectsContent = document.getElementById('projects__content');
+const projectsContent = document.getElementById('projects-content');
 const projectsItems = projects.map(
   (item) => `
         <div class="projects__item">
